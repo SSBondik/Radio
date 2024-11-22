@@ -268,3 +268,38 @@
 .prize .btn {
 	margin-top: 60px;
 }
+
+.webinar {
+	background-color: #0f0b0b;
+	padding: 50px 0;
+}
+
+.webinar__img {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.webinar__subtitle {
+	margin-top: 40px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.webinar__title {
+	margin-top: 20px;
+	color: #f9bf3b;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.webinar__cta {
+	margin-top: 20px;
+	color: #efefef;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 500;
+}
