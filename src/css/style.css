@@ -164,3 +164,40 @@
 	font-size: 16px;
 	font-weight: 300;
 }
+
+.info {
+	min-height: 564px;
+	background-color: #0f0b0b;
+	padding: 100px 0 140px 0;
+}
+
+.info__title {
+	color: #f9bf3b;
+	font-size: 30px;
+	text-align: right;
+}
+
+.info__text {
+	position: relative;
+	padding-left: 390px;
+	margin-top: 19px;
+	color: #fff;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 300;
+	z-index: 2;
+}
+
+.info__text.medium {
+	font-weight: 500;
+}
+
+.info__img {
+	position: absolute;
+	width: 615px;
+	height: 351px;
+	object-fit: cover;
+	top: 93px;
+	left: -83px;
+	z-index: 1;
+}
